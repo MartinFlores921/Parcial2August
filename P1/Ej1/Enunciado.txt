@@ -1,0 +1,45 @@
+Parcial 2 - POO 2022
+
+9/6/2022
+Tema1
+PRÁCTICA .
+El analista de sistemas de la empresa de transporte “Tr@nsportados SRL", le presenta a usted
+la siguiente situación problemática:
+Contexto:
+
+La empresa posee para el alquiler dos tipos de vehículos: de transporte de pasajeros o vehículos de carga
+
+
+De ambos tipos de vehículos se necesita registrar: marca,modelo,patente,importe basico de alquiler y la cantidad de kilometros a recorrer
+
+De un vehículo de pasajeros se registra además la cantidad de asientos.
+De un vehículo de carga se registra además el peso de la carga.
+
+El importe total del alquiler de cada vehículo se calcula en función del importe básico y de sus características. Para ello se deben considerar las siguientes reglas de negocio:
+Importe total por alquiler de vehículo=importe básico de alquiler (IBA) + adicional por características, donde:
+
+Adicional por características de Vehículos de pasajeros: 1% aplicado sobre el IBA cada 10 km, si la cantidad de kilómetros a recorrer supera los 100km, mas 1% aplicado sobre el IBA, si el
+vehículo posee más de cuatro asientos.
+
+Adicional por características de Vehículos de carga: el 5% aplicado sobre el IBA cada 10 km, si supera los 100km a recorrer, mas el 10% aplicado sobre el IBA cada 100 kilogramos, sí la
+carga supera los 500 kilogramos de carga
+
+Se pide: definir la jerarquía de clases que corresponda al contexto planteado, con sus
+respectivos atributos y métodos, y una colección basada en una lista enlazada definida por el
+programador con la información de los distintos vehículos de modo de responder a los
+siguientes ítems
+
+1. Agregar vehículos a la colección.
+
+2. Mostrar todos los datos de los de los vehículos de pasajeros que posean más de 6
+
+asientos.
+
+ca, modelo, patente, importe básico de
+
+3. Ingresar por teclado una marca y contar cuantos vehículos de carga son de esa marca.
+4. Para todos los vehículos generar un listado como el siguiente:
+
+    Marca       Modelo      Tipo de Vehiculo        kilometros a recorrer       Total_alquiler 
+     xxx         xxx               xx                          xxx                    xxxx
+
